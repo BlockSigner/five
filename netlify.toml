@@ -34,11 +34,11 @@
 # https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file
 
 # If browser is in English, show CH/EN page
-[[redirects]]
-  from = "/"
-  to = "/ch/en"
-  status = 301
-  conditions = {Language = ["en"]}
+# [[redirects]]
+#   from = "/"
+#   to = "/ch/en"
+#   status = 301
+#   conditions = {Language = ["en"]}
 
 # Otherwise, display CH/DE page
 [[redirects]]

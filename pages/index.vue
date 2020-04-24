@@ -491,7 +491,8 @@
       </v-container>
       <v-container class="px-6 px-md-4">
         <!-- Temporary language switcher, to be replaced as soon as we have multi-region -->
-        <v-row justify="center">
+        <!-- Disabled until VideoIdent works in English -->
+        <!-- <v-row justify="center">
           <div class="footer text-center my-5">
             <div v-if="$i18n.locale === 'ch/de'">
               <strong>Deutsch</strong> |
@@ -513,7 +514,7 @@
               <strong>English</strong>
             </div>
           </div>
-        </v-row>
+        </v-row> -->
         <v-row justify="center">
           <div class="footer text-center my-5">
             {{ $t('footer.built_by') }}
