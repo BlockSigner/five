@@ -54,11 +54,6 @@
   status = 302
 
 [[redirects]]
-  from = "/ch/de/*"
-  to = "/ch/de"
-  status = 302
-
-[[redirects]]
   from = "/*"
   to = "/ch/de"
   status = 302
