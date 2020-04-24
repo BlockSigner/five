@@ -52,9 +52,3 @@
   to = "/ch/de"
   force = true
   status = 301
-
-[[redirects]]
-  from = "/ch/de/*"
-  to = "/ch/de/"
-  force = true
-  status = 301
