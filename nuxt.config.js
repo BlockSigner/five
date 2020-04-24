@@ -52,6 +52,12 @@ export default {
     proxy: true, // Can be also an object with default options
   },
   /*
+   ** Routing middlewares configuration
+   */
+  router: {
+    middleware: 'language',
+  },
+  /*
    ** Proxy module configuration
    */
   proxy: {
