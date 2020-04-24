@@ -48,12 +48,12 @@
 
 # Temporary agressive redirect. No matter the url, you always end up at /ch/de
 [[redirects]]
-  from = "/"
+  from = "/*"
   to = "/ch/de"
-  status = 301
+  status = 302
 
 [[redirects]]
   from = "/ch/en"
   to = "/ch/de"
   force = true
-  status = 301
+  status = 302
