@@ -49,4 +49,5 @@
 [[redirects]]
   from = "*"
   to = "/ch/de"
+  force = true
   status = 301
