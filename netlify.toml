@@ -28,20 +28,3 @@
   to = "https://seven-staging.videoident.me/api/:splat"
   status = 200
   signed = "PROXY_REQUEST_KEY"
-
-# Redirect to appropriate region and language based on ip location and browser language
-# The redirects engine will process the first matching rule it finds, reading from top to bottom.
-# https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file
-
-# If browser is in English, show CH/EN page
-[[redirects]]
-  from = "/"
-  to = "/ch/en"
-  status = 301
-  conditions = {Language = ["en"]}
-
-# Otherwise, display CH/DE page
-[[redirects]]
-  from = "/"
-  to = "/ch/de"
-  status = 301
