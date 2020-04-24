@@ -50,5 +50,10 @@
 [[redirects]]
   from = "/*"
   to = "/ch/de"
+  status = 301
+
+[[redirects]]
+  from = "/ch/en"
+  to = "/ch/de"
   force = true
   status = 301
