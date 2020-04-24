@@ -53,14 +53,13 @@ export default {
       question: 'Wie lange dauert die Video-Identifikation?',
     },
     question8: {
-      answer:
-        'Du kannst die Identifikation in Deutsch und Englisch durchführen.',
+      answer: 'Die Identifikation steht momentan in Deutsch zur Verfügung.',
       question:
         'In welcher Sprache kann ich die Video-Identifikation durchführen?',
     },
     question9: {
       answer:
-        'Im Preis enthalten ist die Identifikation via Video, die anschliessend generierte elektronische Identität (E-ID). Nicht enthalten sind die Signaturen, die mit der E-ID gemacht werden.',
+        'Im Preis enthalten ist die Identifikation via Video und die anschliessend generierte elektronische Identität (E-ID). Nicht enthalten sind die Signaturen, die mit der E-ID gemacht werden.',
       question: 'Was ist im Preis enthalten?',
     },
     title: 'FAQ',
@@ -82,7 +81,7 @@ export default {
       paragraph2:
         'Diese Verordnung gilt für den Rechtsraum Schweiz. Für das Signieren nach EU-Gesetz kann die E-ID auch nach dieser Zeitperiode weiter eingesetzt werden.',
       paragraph3:
-        'VideoIdent.me wird von Skribble in Zusammenarbeit mit Swisscom und IdentityTM angeboten.',
+        'VideoIdent.me wird in Zusammenarbeit mit Swisscom und IdentityTM angeboten.',
     },
     cta: 'Jetzt starten',
     subtitle:

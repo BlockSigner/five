@@ -46,10 +46,6 @@
               </p>
 
               <div class="intro__logos my-6">
-                <div class="intro__logo skribble-logo">
-                  <img src="/logo-skribble.svg" alt="Skribble logo" />
-                  <div>Skribble</div>
-                </div>
                 <div class="intro__logo identity-logo">
                   <img src="/identity-tm.png" alt="Identity.tm logo" />
                 </div>
@@ -178,6 +174,8 @@
             >
               <strong>{{ $t('payment.price_info1') }}</strong>
               {{ $t('payment.price_info2') }}
+              <br />
+              <small>Derzeit nur in deutscher Sprache verfügbar.</small>
             </div>
             <!-- Form -->
             <div class="pay__flex">
@@ -835,6 +833,7 @@ export default {
   &__logos
     display: flex
     align-items: center
+    justify-content: center
     +media(sm-and-down)
       flex-direction: column
       align-items: flex-start
@@ -935,7 +934,7 @@ export default {
       margin-right: -20px
 
   &__countries.v-input
-    font: 1rem/1 Averta
+    font: 1rem/1 $averta
     color: $c-skribbleu
 
   &__form
