@@ -41,7 +41,12 @@
 #   conditions = {Language = ["en"]}
 
 # Otherwise, display CH/DE page
+# [[redirects]]
+#   from = "/"
+#   to = "/ch/de"
+#   status = 301
+
 [[redirects]]
-  from = "/*"
+  from = "*"
   to = "/ch/de"
   status = 301
