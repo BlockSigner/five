@@ -4,6 +4,16 @@
       <back-soon />
       <small>Elektronische Signaturen und digitales Vertrauen sind brandaktuelle Themen. Wegen Unterhaltsarbeiten bei Swisscom ist der VideoIdent Service temporär offline. Bitte probieren Sie es später nochmals.</small>
     </div>
+    <!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "5051692",
+	formId: "cb565705-2dda-41e1-b87a-1ccc50926592"
+});
+</script>
   </main>
 </template>
 
