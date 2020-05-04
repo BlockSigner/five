@@ -593,17 +593,29 @@ export default {
 
   components: { Card },
   beforeMount() {
-    // Get all countries from i18n-iso-countries-library in the selected language
-    const rawCountries = this.$countries.getNames('de')
-    // Convert it to our dropdown format
-    let organizedCountries = []
-    for (let key in rawCountries) {
-      organizedCountries.push({ value: key, text: rawCountries[key] })
+    // Get a list of all countries from i18n-iso-countries-library in the selected language
+    const currentLanguage = this.$i18n.loadedLanguages[0].substring(3, 5)
+    let rawCountries = this.$countries.getNames(currentLanguage)
+
+    // With the "favourite" countries first
+    const favouriteCountriesCodes = ['CH', 'DE', 'FR', 'AT']
+    let favouriteCountries = []
+    for (let key of favouriteCountriesCodes) {
+      favouriteCountries.push({ value: key, text: rawCountries[key] })
     }
-    // Sort "favourite" countries on top
+    // Separated by a divider
+    favouriteCountries.push({ value: '', text: '', divider: true })
+
+    // And the rest of the countries sorted alphabetically
+    let additionalCountries = []
+    for (let key in rawCountries) {
+      if (!favouriteCountries.includes(key))
+        additionalCountries.push({ value: key, text: rawCountries[key] })
+    }
+    additionalCountries.sort((a, b) => a.text.localeCompare(b.text))
 
     // Assign to dropdown
-    this.countryList = organizedCountries
+    this.countryList = [...favouriteCountries, ...additionalCountries]
   },
   methods: {
     pay() {
