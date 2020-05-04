@@ -36,7 +36,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '~plugins/matomo.js', mode: 'client' }],
+  plugins: [{ src: '~plugins/matomo.js', mode: 'client' }, { src: '~plugins/i18n-iso-countries.js', mode: 'client' }],
   /*
    ** Nuxt.js dev-modules
    */
