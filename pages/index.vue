@@ -747,7 +747,7 @@ export default {
 .skribble-logo
   display: flex
   align-items: center
-  font: bold 1.5rem/1 $averta
+  font: bold 1.5rem/1 $averta, sans-serif
   color: $c-skribbleu
 
   img
@@ -897,7 +897,7 @@ export default {
 
     &-header
       padding: 16px 0 16px 0
-      font: bold 1rem/1.4 $averta
+      font: bold 1rem/1.4 $averta, sans-serif
       color: $c-skribbleu
       +media(xs-only)
         font-size: .9rem
@@ -912,7 +912,7 @@ export default {
   font-size: .8rem
 
   .skribble-logo
-    font: bold 1.5rem/1 $averta
+    font: bold 1.5rem/1 $averta, sans-serif
     color: $c-skribbleu
 
   a
