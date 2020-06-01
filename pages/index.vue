@@ -563,7 +563,7 @@ export default {
           base: {
             color: '#293D66',
             fontSize: '20px',
-            fontFamily: 'Averta',
+            fontFamily: 'Averta, sans-serif',
             fontSmoothing: 'antialiased',
             '::placeholder': {
               color: '#65728E',
@@ -873,7 +873,7 @@ export default {
       margin-right: -20px
 
   &__countries.v-input
-    font: 1rem/1 $averta
+    font: 1rem/1 $averta, sans-serif
     color: $c-skribbleu
 
   &__form
