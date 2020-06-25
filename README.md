@@ -48,6 +48,7 @@ Our content repository is at [Lokalise](https://app.lokalise.com/project/5819435
    - Format: `JSON (.json)`
    - Options: Enable `Unescape forward slashes` and `Add new line at EOF`
    - Plural format: `Symfony`
+   - Order keys by: `Key name A-Z`
    - Identation: `2 spaces`
 1. Click the `Preview` button
 1. Copy and paste the entire content from each .json tab (`de_CH.json` and `en_CH.json`) to the respective files in your local machine (`locales/de_CH.js` and `locales/en_CH.js`) after the code `export default`
