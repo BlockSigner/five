@@ -22,22 +22,9 @@
                   { headline: $vuetify.breakpoint.mdAndUp },
                   'mb-6',
                 ]"
-              >
-                {{ $t('intro.subtitle') }}
-              </p>
-
-              <i18n
-                path="intro.content.paragraph1"
-                tag="p"
-                for="intro.content.paragraph1_linkText"
-              >
-                <a
-                  class="link"
-                  :href="$t('intro.content.paragraph1_linkURL')"
-                  target="_blank"
-                  >{{ $t('intro.content.paragraph1_linkText') }}</a
-                >
-              </i18n>
+                v-html="$t('intro.subtitle')"
+              ></p>
+              <p v-html="$t('intro.content.paragraph1')"></p>
               <p>
                 {{ $t('intro.content.paragraph2') }}
               </p>
@@ -90,20 +77,15 @@
                 >
                   {{ $t('steps.title') }}
                 </h2>
-                <i18n
-                  path="steps.subtitle"
-                  tag="p"
-                  for="steps.subtitle_linkText"
+                <p
                   :class="[
                     { 'font-weight-bold': $vuetify.breakpoint.smAndDown },
                     { headline: $vuetify.breakpoint.mdAndUp },
                   ]"
-                >
-                  <a :href="$t('steps.subtitle_linkURL')" target="_blank">{{
-                    $t('steps.subtitle_linkText')
-                  }}</a>
-                </i18n>
+                  v-html="$t('steps.subtitle')"
+                ></p>
               </div>
+
               <ol class="steps__list mt-8 mt-md-12 pa-0">
                 <li>
                   <h3 class="headline">{{ $t('steps.step1.title') }}</h3>
@@ -378,7 +360,10 @@
                     {{ $t('faq.question1.question') }}
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
-                    {{ $t('faq.question1.answer') }}
+                    <div
+                      class="v-expansion-panel-content__wrap"
+                      v-html="$t('faq.question1.answer')"
+                    ></div>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
 
@@ -387,7 +372,10 @@
                     {{ $t('faq.question2.question') }}
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
-                    {{ $t('faq.question2.answer') }}
+                    <div
+                      class="v-expansion-panel-content__wrap"
+                      v-html="$t('faq.question2.answer')"
+                    ></div>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
 
