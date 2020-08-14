@@ -31,7 +31,7 @@ export default {
     },
     question5: {
       answer:
-        'Die Prüfung Ihrer Identität ist mit einem gültigen Personalausweis oder Reisepass möglich. Nicht zugelassen sind Dokumente wie Führerschein oder Aufenthaltstitel (Ausländerausweis für die Schweiz). Derzeit unterstützen wir Ausweisdokumente aus über 150 Ländern. {0}.',
+        'Die Prüfung Ihrer Identität ist mit einem gültigen Personalausweis oder Reisepass möglich. Nicht zugelassen sind Dokumente wie Führerschein oder Aufenthaltstitel (Ausländerausweis für die Schweiz). Derzeit unterstützen wir Ausweisdokumente aus über 150 Ländern. {0}',
       answer_linkText:
         "Hier geht's zur Liste der akzeptierten Ausweisdokumente.",
       answer_linkURL:
@@ -41,7 +41,7 @@ export default {
     },
     question6: {
       answer:
-        'Ja. Aufgrund der COVID-19-Krise hat der Bundesrat die Verordnung zur digitalen Signatur vorübergehend angepasst und akzeptiert bis zum 2. Oktober 2020 auch die in der EU anerkannte Video-Identifikation für elektronisches Signieren zu.<br><br><strong>Hinweis:<strong> Diese Verordnung ist für den Rechtsraum Schweiz temporär: mit einer via Video-Call geprüften Identität können Sie vorerst bis zum 2. Oktober mit QES nach Schweizer Recht signieren.',
+        'Ja. Aufgrund der COVID-19-Krise hat der Bundesrat die Verordnung zur digitalen Signatur vorübergehend angepasst und akzeptiert bis zum 2. Oktober 2020 auch die in der EU anerkannte Video-Identifikation für elektronisches Signieren zu.\n<br><br>\n <strong>Hinweis:</strong> Diese Verordnung ist für den Rechtsraum Schweiz temporär: mit einer via Video-Call geprüften Identität können Sie vorerst bis zum 2. Oktober mit QES nach Schweizer Recht signieren.',
       question: 'Ist die Video-Identifikation in der Schweiz rechtsgültig?',
     },
     question7: {
@@ -71,7 +71,7 @@ export default {
   intro: {
     content: {
       paragraph1:
-        '<strong>Wichtiger Hinweis für die Schweiz:<strong> Für das elektronische Signieren nach Schweizer Recht (ZertES) hat der Bund eine <a href="https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-78641.html" target="_blank">Ausnahmeregelung</a> im Rahmen der COVID-19-Krise in Kraft gesetzt und erlaubt bis zum 2. Oktober 2020 die Identitätsprüfung per Video.',
+        '<strong>Wichtiger Hinweis für die Schweiz:</strong> Für das elektronische Signieren nach Schweizer Recht (ZertES) hat der Bund eine <a href="https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-78641.html" target="_blank">Ausnahmeregelung</a> im Rahmen der COVID-19-Krise in Kraft gesetzt und erlaubt bis zum 2. Oktober 2020 die Identitätsprüfung per Video.',
       paragraph1_linkText:
         'setzte diese Ausnahmeregelung im Rahmen der COVID-19-Krise in Kraft',
       paragraph1_linkURL:
@@ -111,7 +111,7 @@ export default {
       pay_now: 'Jetzt bezahlen',
       payment: 'Bezahlung',
       terms: 'Es gelten die {0} von Skribble.',
-      terms_linkText: 'Datenschutzrichtlinien',
+      terms_linkText: 'Datenschutzbestimmungen',
       terms_linkURL: 'https://www.skribble.com/de/datenschutz/',
       you_must_agree: 'Sie müssen zustimmen, um den Prozess zu starten.',
     },
