@@ -25,12 +25,6 @@
                 v-html="$t('intro.subtitle')"
               ></p>
               <p v-html="$t('intro.content.paragraph1')"></p>
-              <p>
-                {{ $t('intro.content.paragraph2') }}
-              </p>
-              <p>
-                {{ $t('intro.content.paragraph3') }}
-              </p>
 
               <div class="intro__logos my-6">
                 <div class="intro__logo identity-logo">
@@ -450,26 +444,6 @@
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     {{ $t('faq.question9.answer') }}
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-
-                <v-expansion-panel>
-                  <v-expansion-panel-header>
-                    {{ $t('faq.question10.question') }}
-                  </v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                    <p
-                      v-html="linkifySkribble($t('faq.question10.answer'))"
-                    ></p>
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
-
-                <v-expansion-panel>
-                  <v-expansion-panel-header>
-                    {{ $t('faq.question11.question') }}
-                  </v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                    {{ $t('faq.question11.answer') }}
                   </v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
