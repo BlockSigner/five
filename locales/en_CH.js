@@ -116,6 +116,7 @@ export default {
     price_info1:
       'Benefit from the special price of CHF 19.– for a limited time',
     price_info2: '(regular price: CHF 25.–)',
+    price_info3: '',
     subtitle:
       'Once the payment process is complete, you will be forwarded to our identification partner in order to get identified via video call on behalf of Swisscom Trust Services.',
     success: {

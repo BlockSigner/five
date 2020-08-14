@@ -2,7 +2,7 @@ export default {
   faq: {
     question1: {
       answer:
-        'Bei Skribble haben Sie dank der qualifizierten elektronischen Signatur (QES)die Möglichkeit, mit maximaler Beweiskraft zu signieren. Die QES ist der handschriftlichen Unterschrift gemäss EU- und Schweizer Recht gleichgestellt. Wer mit ihr signieren will, muss allerdings eine Identitätsprüfung durchlaufen. Sobald Ihre Identität erfolgreich geprüft wurde, wird die QES auf <a href="https://www.skribble.com" target="_blank">Skribble</a> für Sie freigeschaltet.',
+        'Bei Skribble haben Sie dank der qualifizierten elektronischen Signatur (QES) die Möglichkeit, mit maximaler Beweiskraft zu signieren. Die QES ist der handschriftlichen Unterschrift gemäss EU- und Schweizer Recht gleichgestellt. Wer mit ihr signieren will, muss allerdings eine Identitätsprüfung durchlaufen. Sobald Ihre Identität erfolgreich geprüft wurde, wird die QES auf <a href="https://www.skribble.com" target="_blank">Skribble</a> für Sie freigeschaltet.',
       question: 'Wofür muss ich mich identifizieren?',
     },
     question10: {
@@ -17,19 +17,17 @@ export default {
     },
     question2: {
       answer:
-        'Sie benötigen ein internetfähiges Mobilgerät oder einen Computer mit Kamera, eine stabile Internetverbindung und einen gültigen Ausweis (Personalausweis oder Reisepass). So funktioniert\'s: \n<br><br>\n• Erforderliche Informationen angeben<br>\n• Einen gültigen Ausweis (Personalausweis oder Reisepass) bereithalten und Identität via Video-Call prüfen lassen. Ein geschulter Mitarbeitender unseres Identifikations-Partners wird Sie durch die Identifikation führen.<br>\n<br><br>\nDie QES wird im Anschluss auf <a href="https://www.skribble.com" target="_blank">Skribble</a> für Sie freigeschaltet.',
+        'Sie benötigen ein internetfähiges Mobilgerät oder einen Computer mit Kamera, eine stabile Internetverbindung und einen gültigen Ausweis (Personalausweis oder Reisepass). So funktioniert\'s: \n<br><br>\n• Persönliche Angaben wie z.B. Ihren Vor- und Nachnamen eingeben<br>\n• Einen gültigen Ausweis (Personalausweis oder Reisepass) bereithalten und Identität via Video-Call prüfen lassen. Ein geschulter Mitarbeiter unseres Identifikations-Partners wird Sie durch die Identifikation führen.<br>\n<br><br>\nDie QES wird im Anschluss auf <a href="https://www.skribble.com" target="_blank">Skribble</a> für Sie freigeschaltet.',
       question: 'Wie funktioniert die Identitätsprüfung?',
     },
     question3: {
       answer:
-        'Ja. Aufgrund der COVID-19-Krise hat der Bundesrat die Verordnung zur digitalen Signatur vorübergehend angepasst und akzeptiert bis zum 2. Oktober 2020 auch die in der EU anerkannte Video-Identifikation für elektronisches Signieren zu.\n\n <strong>Hinweis:<strong> Diese Verordnung ist für den Rechtsraum Schweiz temporär: mit einer auf diesem Kanal geprüften Identität können Sie vorerst bis zum 2. Oktober mit QES nach Schweizer Recht signieren.',
-      question: 'Ist die Video-Identifikation in der Schweiz rechtsgültig?',
+        'Der ganze Vorgang dauert ca. 5 Minuten. Die qualifizierte elektronischen Signatur (QES) wird maximal 30 Minuten nach erfolgreicher Prüfung auf Skribble freigeschaltet.',
+      question: 'Wie lange dauert die Identifikation?',
     },
     question4: {
-      answer:
-        'Für das Signieren nach Schweizer Recht (ZertES) können Sie die via Video-Call geprüfte Identität bis zum 2. Oktober 2020 einsetzen. Gemäss Stand heute wird für das Signieren nach dem 2. Oktober 2020 eine Face-to-Face-Identifikation erforderlich.',
-      question:
-        'Muss ich meine Identität zum Signieren nach Schweizer Recht nach dem 2. Oktober 2020 erneut prüfen lassen?',
+      answer: 'Die Identitätsprüfung steht momentan auf Deutsch zur Verfügung.',
+      question: 'In welchen Sprachen kann ich die Identifikation durchführen?',
     },
     question5: {
       answer:
@@ -43,12 +41,14 @@ export default {
     },
     question6: {
       answer:
-        'Der ganze Vorgang dauert ca. 5 Minuten. Die qualifizierte elektronischen Signatur (QES) wird maximal 30 Minuten nach erfolgreicher Prüfung auf Skribble freigeschaltet.',
-      question: 'Wie lange dauert die Identifikation?',
+        'Ja. Aufgrund der COVID-19-Krise hat der Bundesrat die Verordnung zur digitalen Signatur vorübergehend angepasst und akzeptiert bis zum 2. Oktober 2020 auch die in der EU anerkannte Video-Identifikation für elektronisches Signieren zu.<br><br><strong>Hinweis:<strong> Diese Verordnung ist für den Rechtsraum Schweiz temporär: mit einer via Video-Call geprüften Identität können Sie vorerst bis zum 2. Oktober mit QES nach Schweizer Recht signieren.',
+      question: 'Ist die Video-Identifikation in der Schweiz rechtsgültig?',
     },
     question7: {
-      answer: 'Die Identitätsprüfung steht momentan auf Deutsch zur Verfügung.',
-      question: 'In welchen Sprachen kann ich die Identifikation durchführen?',
+      answer:
+        'Für das Signieren nach Schweizer Recht (ZertES) können Sie die via Video-Call geprüfte Identität bis zum 2. Oktober 2020 einsetzen. Gemäss Stand heute wird für das Signieren nach dem 2. Oktober 2020 eine Face-to-Face-Identifikation erforderlich.',
+      question:
+        'Muss ich meine Identität zum Signieren nach Schweizer Recht nach dem 2. Oktober 2020 erneut prüfen lassen?',
     },
     question8: {
       answer:
@@ -104,7 +104,7 @@ export default {
       email_is_required: 'E-Mail-Adresse wird benötigt',
       email_must_be_valid: 'E-Mail-Adresse muss gültig sein',
       first_name: 'Vorname(n)',
-      identification: 'Identifikation',
+      identification: 'Angaben für die Identifikation',
       last_name: 'Nachname',
       name_hint: 'Wie im Ausweis aufgeführt',
       name_is_required: 'Name wird benötigt',
@@ -118,6 +118,7 @@ export default {
     price_info1:
       'Sie profitieren für begrenzte Zeit vom Vorzugspreis von CHF 19.–',
     price_info2: '(regulärer Preis: CHF 25.–)',
+    price_info3: 'Derzeit nur in deutscher Sprache verfügbar.',
     subtitle:
       'Nach dem Bezahlvorgang werden Sie an unseren Identifikations-Partner weitergeleitet.',
     success: {
@@ -133,18 +134,18 @@ export default {
   steps: {
     caption: {
       paragraph1:
-        'Diese Identitätsprüfung steht Ihnen rund um die Uhr zur Verfügung und wird gemeinsam mit unseren Partnern Swisscom und IdentityTM durchgeführt.',
+        'Die Identitätsprüfung ist täglich von 07.00 bis 22.00 Uhr verfügbar und wird gemeinsam mit unseren Partnern Swisscom und IdentityTM durchgeführt.',
       paragraph2:
-        'Bitte halten Sie einen gültigen Ausweis (Personalausweis oder Reisepass), eine Kreditkarte sowie ein internetfähiges Gerät mit Webcam und Mikrofon bereit.',
+        'Bitte halten Sie Ihren Ausweis (Personalausweis oder Reisepass), eine Kreditkarte sowie ein internetfähiges Gerät mit Webcam und Mikrofon bereit.',
     },
     step1: {
       description:
-        'Bezahlen Sie bequem und sicher mit Kreditkarte, um mit der Identitätsprüfung loszulegen.',
+        'Geben Sie Ihre persönlichen Angaben ein und bezahlen Sie bequem und sicher mit Kreditkarte, um mit der Identitätsprüfung loszulegen.',
       title: 'Mit Kreditkarte bezahlen',
     },
     step2: {
       description:
-        'Halten Sie einen gültigen Ausweis bereit. Ein geschulter Mitarbeitender unseres Identifikations-Partners wird Sie via Video-Call durch die Identifikation führen.',
+        'Halten Sie einen gültigen Ausweis bereit. Ein geschulter Mitarbeiter unseres Identifikations-Partners wird Sie via Video-Call durch die Identifikation führen.',
       title: 'Identität prüfen lassen',
     },
     step3: {
