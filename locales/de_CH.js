@@ -17,7 +17,7 @@ export default {
     },
     question2: {
       answer:
-        'Sie benötigen ein internetfähiges Mobilgerät oder einen Computer mit Kamera, eine stabile Internetverbindung und einen gültigen Ausweis (Personalausweis oder Reisepass). So funktioniert\'s: \n\n• Erforderliche Informationen angeben \n• Einen gültigen Ausweis (Personalausweis oder Reisepass) bereithalten und Identität via Video-Call prüfen lassen. Ein geschulter Mitarbeitender unseres Identifikations-Partners wird Sie durch die Identifikation führen. \n\nDie QES wird im Anschluss auf <a href="https://www.skribble.com" target="_blank">Skribble</a> für Sie freigeschaltet.',
+        'Sie benötigen ein internetfähiges Mobilgerät oder einen Computer mit Kamera, eine stabile Internetverbindung und einen gültigen Ausweis (Personalausweis oder Reisepass). So funktioniert\'s: \n<br><br>\n• Erforderliche Informationen angeben<br>\n• Einen gültigen Ausweis (Personalausweis oder Reisepass) bereithalten und Identität via Video-Call prüfen lassen. Ein geschulter Mitarbeitender unseres Identifikations-Partners wird Sie durch die Identifikation führen.<br>\n<br><br>\nDie QES wird im Anschluss auf <a href="https://www.skribble.com" target="_blank">Skribble</a> für Sie freigeschaltet.',
       question: 'Wie funktioniert die Identitätsprüfung?',
     },
     question3: {
@@ -33,7 +33,7 @@ export default {
     },
     question5: {
       answer:
-        'Die Prüfung Ihrer Identität ist mit einem gültigen Personalausweis oder Reisepass möglich. Nicht zugelassen sind Dokumente wie Ausländer- oder Führerausweis. Derzeit unterstützen wir Ausweisdokumente aus über 150 Ländern. {0}.',
+        'Die Prüfung Ihrer Identität ist mit einem gültigen Personalausweis oder Reisepass möglich. Nicht zugelassen sind Dokumente wie Führerschein oder Aufenthaltstitel (Ausländerausweis für die Schweiz). Derzeit unterstützen wir Ausweisdokumente aus über 150 Ländern. {0}.',
       answer_linkText:
         "Hier geht's zur Liste der akzeptierten Ausweisdokumente.",
       answer_linkURL:
@@ -104,10 +104,12 @@ export default {
       email_is_required: 'E-Mail-Adresse wird benötigt',
       email_must_be_valid: 'E-Mail-Adresse muss gültig sein',
       first_name: 'Vorname(n)',
+      identification: 'Identifikation',
       last_name: 'Nachname',
       name_hint: 'Wie im Ausweis aufgeführt',
       name_is_required: 'Name wird benötigt',
       pay_now: 'Jetzt bezahlen',
+      payment: 'Bezahlung',
       terms: 'Es gelten die {0} von Skribble.',
       terms_linkText: 'Datenschutzrichtlinien',
       terms_linkURL: 'https://www.skribble.com/de/datenschutz/',

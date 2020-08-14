@@ -163,6 +163,9 @@
                     "
                     class="pay__form"
                   >
+                    <div class="display-5 skribbleu--text mb-3 mt-1">
+                      {{ $t('payment.form.identification') }}
+                    </div>
                     <v-form
                       ref="form"
                       v-model="validForm"
@@ -199,6 +202,9 @@
                         required
                         outlined
                       ></v-text-field>
+                      <div class="display-5 skribbleu--text mb-3 mt-1">
+                        {{ $t('payment.form.payment') }}
+                      </div>
                       <v-select
                         v-model="country"
                         :items="countryList"
