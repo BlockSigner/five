@@ -19,6 +19,8 @@ $ yarn start
 $ yarn generate
 ```
 
+During dev the main page can be found at `http://localhost:3000/ch/de`
+
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 ## Prerequisite: Install commitizen globally

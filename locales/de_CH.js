@@ -2,8 +2,8 @@ export default {
   faq: {
     question1: {
       answer:
-        'Die hier erstellte E-ID wird nach heutigem Kenntnisstand ab dem 2. Oktober 2020 für das Signieren nach Schweizer Gesetz (ZertES) deaktiviert werden müssen. Die E-ID kann jedoch weiterhin zum Signieren nach europäischen Gesetz (eIDAS) eingesetzt werden.',
-      question: 'Was passiert mit der E-ID nach dem 2. Oktober 2020?',
+        'Bei Skribble haben Sie dank der qualifizierten elektronischen Signatur (QES)die Möglichkeit, mit maximaler Beweiskraft zu signieren. Die QES ist der handschriftlichen Unterschrift gemäss EU- und Schweizer Recht gleichgestellt. Wer mit ihr signieren will, muss allerdings eine Identitätsprüfung durchlaufen. Sobald Ihre Identität erfolgreich geprüft wurde, wird die QES auf <a href="https://www.skribble.com" target="_blank">Skribble</a> für Sie freigeschaltet.',
+      question: 'Wofür muss ich mich identifizieren?',
     },
     question10: {
       answer:
@@ -17,51 +17,50 @@ export default {
     },
     question2: {
       answer:
-        'Die E-ID wird nach höchsten Sicherheitsstandards und verschlüsselt in den Rechenzentren der Swisscom abgelegt. Die E-ID kann nur im Falle eines Rechtsfalls von den Sicherheitsleuten des Swisscom Signing Service im Vier-Augen-Prinzip entschlüsselt und den Behörden zur Verfügung gestellt werden.',
-      question: 'Wo wird meine E-ID gespeichert?',
+        'Sie benötigen ein internetfähiges Mobilgerät oder einen Computer mit Kamera, eine stabile Internetverbindung und einen gültigen Ausweis (Personalausweis oder Reisepass). So funktioniert\'s: \n\n• Erforderliche Informationen angeben \n• Einen gültigen Ausweis (Personalausweis oder Reisepass) bereithalten und Identität via Video-Call prüfen lassen. Ein geschulter Mitarbeitender unseres Identifikations-Partners wird Sie durch die Identifikation führen. \n\nDie QES wird im Anschluss auf <a href="https://www.skribble.com" target="_blank">Skribble</a> für Sie freigeschaltet.',
+      question: 'Wie funktioniert die Identitätsprüfung?',
     },
     question3: {
       answer:
-        'Die hier erstellte E-ID wird in erster Linie für das Signieren mit der qualifizierten elektronischen Signatur (QES) generiert. Falls Sie sich für andere Anwendungsfälle interessieren, kontaktieren Sie bitte Skribble.',
-      question: 'Wofür kann ich diese E-ID nutzen?',
+        'Ja. Aufgrund der COVID-19-Krise hat der Bundesrat die Verordnung zur digitalen Signatur vorübergehend angepasst und akzeptiert bis zum 2. Oktober 2020 auch die in der EU anerkannte Video-Identifikation für elektronisches Signieren zu.\n\n <strong>Hinweis:<strong> Diese Verordnung ist für den Rechtsraum Schweiz temporär: mit einer auf diesem Kanal geprüften Identität können Sie vorerst bis zum 2. Oktober mit QES nach Schweizer Recht signieren.',
+      question: 'Ist die Video-Identifikation in der Schweiz rechtsgültig?',
     },
     question4: {
       answer:
-        'Die Identifikation wird von Swisscom Trust Services angeboten und in Zusammenarbeit mit Identity Trust Management AG durchgeführt.',
-      question: 'Wer führt die Video-Identifikation durch?',
+        'Für das Signieren nach Schweizer Recht (ZertES) können Sie die via Video-Call geprüfte Identität bis zum 2. Oktober 2020 einsetzen. Gemäss Stand heute wird für das Signieren nach dem 2. Oktober 2020 eine Face-to-Face-Identifikation erforderlich.',
+      question:
+        'Muss ich meine Identität zum Signieren nach Schweizer Recht nach dem 2. Oktober 2020 erneut prüfen lassen?',
     },
     question5: {
       answer:
-        'Ja, der Service steht für die meisten Nationalitäten zur Verfügung. {0}.',
+        'Die Prüfung Ihrer Identität ist mit einem gültigen Personalausweis oder Reisepass möglich. Nicht zugelassen sind Dokumente wie Ausländer- oder Führerausweis. Derzeit unterstützen wir Ausweisdokumente aus über 150 Ländern. {0}.',
       answer_linkText:
-        'Liste der akzeptierten Länder und Ausweisdokumente ansehen',
+        "Hier geht's zur Liste der akzeptierten Ausweisdokumente.",
       answer_linkURL:
         'http://documents.swisscom.com/product/filestore/lib/5705ba58-3fdb-446f-9e48-18a297b8d239/l%C3%A4nderliste%20f%C3%BCr%20die%20videoidentifikation-kurier-pos-en.pdf?idxme=pex-search',
       question:
-        'Ich bin nicht aus der Schweiz. Kann ich mich trotzdem identifizieren lassen?',
+        'Welche Ausweisdokumente werden für die Video-Identifikation akzeptiert?',
     },
     question6: {
       answer:
-        'Die QES wird maximal 30 Minuten nach der Identifikation auf Skribble und anderen Services, die auf dem Swisscom Signing Service beruhen, freigeschaltet.',
-      question:
-        'Wie lange dauert es, bis ich die E-ID für das Signieren einsetzen kann?',
+        'Der ganze Vorgang dauert ca. 5 Minuten. Die qualifizierte elektronischen Signatur (QES) wird maximal 30 Minuten nach erfolgreicher Prüfung auf Skribble freigeschaltet.',
+      question: 'Wie lange dauert die Identifikation?',
     },
     question7: {
-      answer:
-        'Die Video-Identifikation dauert ca. 5 Minuten. Je nach Auslastung des Identifikations-Teams kann die Wartezeit bis zum Start der Identifikation bis zu 2 Minuten betragen.',
-      question: 'Wie lange dauert die Video-Identifikation?',
+      answer: 'Die Identitätsprüfung steht momentan auf Deutsch zur Verfügung.',
+      question: 'In welchen Sprachen kann ich die Identifikation durchführen?',
     },
     question8: {
-      answer: 'Die Identifikation steht momentan auf Deutsch zur Verfügung.',
-      question:
-        'In welchen Sprachen kann ich die Video-Identifikation durchführen?',
+      answer:
+        'Der Preis gilt für die Identifikation, die zum elektronischen Signieren mit QES  befähigt. Nicht enthalten sind die elektronischen Signaturen, die später gemacht werden.',
+      question: 'Was ist im Preis enthalten?',
     },
     question9: {
       answer:
-        'Im Preis enthalten ist die Identifikation via Video und die anschliessend generierte elektronische Identität (E-ID). Nicht enthalten sind die Signaturen, die mit der E-ID gemacht werden.',
-      question: 'Was ist im Preis enthalten?',
+        'Die geprüfte Identität wird nach höchsten Sicherheitsstandards und verschlüsselt in den Rechenzentren der Swisscom abgelegt. Sie kann nur im Rechtsfall vom Sicherheitspersonal des Swisscom Signing Service im Vier-Augen-Prinzip entschlüsselt und den Behörden zur Verfügung gestellt werden.',
+      question: 'Wo werden meine Daten gespeichert?',
     },
-    title: 'FAQ',
+    title: 'Noch Fragen? Das Wichtigste in Kürze.',
   },
   footer: {
     built_by: 'Bereitgestellt von',
@@ -72,7 +71,7 @@ export default {
   intro: {
     content: {
       paragraph1:
-        'Um mit QES zu signieren, ist eine einmalige Identitätsprüfung erforderlich. Bis zum 2. Oktober 2020 ist das via Video-Call möglich. Der Bund {0}, um die Notwendigkeit für persönlichen Kontakt zu reduzieren und der gestiegenen Nachfrage für elektronisches Signieren nachzukommen.',
+        '<strong>Wichtiger Hinweis für die Schweiz:<strong> Für das elektronische Signieren nach Schweizer Recht (ZertES) hat der Bund eine <a href="https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-78641.html" target="_blank">Ausnahmeregelung</a> im Rahmen der COVID-19-Krise in Kraft gesetzt und erlaubt bis zum 2. Oktober 2020 die Identitätsprüfung per Video.',
       paragraph1_linkText:
         'setzte diese Ausnahmeregelung im Rahmen der COVID-19-Krise in Kraft',
       paragraph1_linkURL:
@@ -82,11 +81,10 @@ export default {
       paragraph3:
         'VideoIdent.me ist ein Service von Skribble in Zusammenarbeit mit Swisscom und IdentityTM.',
     },
-    cta: 'Jetzt starten',
+    cta: 'Identifikation starten',
     subtitle:
-      'Erstellen Sie in wenigen Minuten eine E-ID, um mit der qualifizierten elektronischen Signatur (QES) zu signieren. Die QES ist der höchste E-Signatur-Standard und der handschriftlichen Unterschrift vor dem Gesetz gleichgestellt.',
-    title:
-      'Video-Identifikation für elektronisches Signieren mit höchster Beweiskraft',
+      'Lassen Sie Ihre Identität in wenigen Minuten prüfen, um auf <a href="https://www.skribble.com" target="_blank">Skribble</a> mit der qualifizierten elektronischen Signatur (QES) zu signieren. Die QES ist der höchste E-Signatur-Standard und der handschriftlichen Unterschrift vor dem Gesetz gleichgestellt.',
+    title: 'Video-Identifikation für die qualifizierte elektronische Signatur',
   },
   payment: {
     failure: {
@@ -119,12 +117,13 @@ export default {
       'Sie profitieren für begrenzte Zeit vom Vorzugspreis von CHF 19.–',
     price_info2: '(regulärer Preis: CHF 25.–)',
     subtitle:
-      'Nach dem Bezahlvorgang werden Sie an unseren Identifikationspartner weitergeleitet, bei dem Sie im Auftrag von Swisscom Trust Services via Video-Call identifiziert werden.',
+      'Nach dem Bezahlvorgang werden Sie an unseren Identifikations-Partner weitergeleitet.',
     success: {
       caption:
-        'Sie werden zum Portal unseres Identifikations-Partners weitergeleitet, bei dem Sie sich im Auftrag der Swisscom Trust Services identifizieren können. Ihre hierfür erhobenen Personendaten werden ausschliesslich für die ordnungsgemässe Identifizierung im Rahmen der elektronischen Signatur verwendet.',
-      cta: 'Video-Identifikation jetzt starten',
-      subtitle: 'Die Bestätigung finden Sie in Ihrem E-Mail-Briefkasten.',
+        'Die Identitätsprüfung wird im Auftrag von Swisscom Trust Service durchgeführt. Die hierfür erhobenen Personendaten werden ausschliesslich für die ordnungsgemässe Identifizierung im Rahmen der elektronischen Signatur verwendet.\n\nIdentifikation später starten? Wir haben Ihnen den Zugangslink per E-Mail gesendet.',
+      cta: 'Video-Identifikation starten',
+      subtitle:
+        'Die Bestätigung finden Sie in Ihrem E-Mail-Briefkasten.\n\nSie werden an unseren Identifikations-Partner weitergeleitet.',
       title: 'Zahlung erfolgreich!',
     },
     title: '1. Mit Kreditkarte bezahlen',
@@ -132,29 +131,29 @@ export default {
   steps: {
     caption: {
       paragraph1:
-        'Der Identifikations-Service ist täglich von 07.00 bis 22.00 Uhr verfügbar.',
+        'Diese Identitätsprüfung steht Ihnen rund um die Uhr zur Verfügung und wird gemeinsam mit unseren Partnern Swisscom und IdentityTM durchgeführt.',
       paragraph2:
-        'Bitte halten Sie Ihr Ausweisdokument (Pass oder Identitätskarte), eine Kreditkarte und Ihr Mobiltelefon bereit. Ihr Gerät muss über eine Webcam und ein Mikrofon verfügen.',
+        'Bitte halten Sie einen gültigen Ausweis (Personalausweis oder Reisepass), eine Kreditkarte sowie ein internetfähiges Gerät mit Webcam und Mikrofon bereit.',
     },
     step1: {
       description:
-        'Sie brauchen keine Rechnung abzuwarten, um mit dem Signieren loszulegen.',
+        'Bezahlen Sie bequem und sicher mit Kreditkarte, um mit der Identitätsprüfung loszulegen.',
       title: 'Mit Kreditkarte bezahlen',
     },
     step2: {
       description:
-        'Ein geschulter Mitarbeitender unseres Identifikations-Partners wird Ihr Ausweisdokument per Webcam prüfen.',
-      title: 'Per Video-Call identifizieren lassen',
+        'Halten Sie einen gültigen Ausweis bereit. Ein geschulter Mitarbeitender unseres Identifikations-Partners wird Sie via Video-Call durch die Identifikation führen.',
+      title: 'Identität prüfen lassen',
     },
     step3: {
       description:
-        'Sie erhalten von Swisscom einen Link per SMS. Klicken Sie darauf, um das Passwort festzulegen, mit dem Sie in Zukunft Ihre Signaturen bestätigen.',
-      title: 'Via Mobiltelefon bestätigen',
+        'Sie erhalten von Swisscom einen Link auf Ihr Mobiltelefon, um Ihr Passwort festzulegen. Mit diesem werden Sie in Zukunft signieren.',
+      title: 'Signatur-Passwort festlegen',
     },
     subtitle:
-      'Die Identitätsprüfung erfolgt online und dauert nur wenige Minuten. Anschliessend wird die QES innert 30 Minuten für Sie auf {0} freigeschaltet.',
+      'Die Identitätsprüfung erfolgt online und dauert nur wenige Minuten. Im Anschluss wird die QES innerhalb von 30 Minuten auf <a href="https://www.skribble.com" target="_blank">Skribble</a> freigeschaltet.',
     subtitle_linkText: 'Skribble.com',
     subtitle_linkURL: 'https://www.skribble.com/de/',
-    title: 'In drei Schritten zur E-ID',
+    title: "So einfach funktioniert's",
   },
 }
