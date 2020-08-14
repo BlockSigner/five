@@ -164,7 +164,7 @@
                     class="pay__form"
                   >
                     <div class="display-5 skribbleu--text mb-3 mt-1">
-                      {{ $t('payment.form.identification') }}
+                      <strong>{{ $t('payment.form.identification') }}</strong>
                     </div>
                     <v-form
                       ref="form"
@@ -203,7 +203,7 @@
                         outlined
                       ></v-text-field>
                       <div class="display-5 skribbleu--text mb-3 mt-1">
-                        {{ $t('payment.form.payment') }}
+                        <strong>{{ $t('payment.form.payment') }}</strong>
                       </div>
                       <v-select
                         v-model="country"
