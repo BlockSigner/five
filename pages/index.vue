@@ -138,6 +138,13 @@
               >
                 {{ $t('payment.subtitle') }}
               </p>
+              <p
+                :class="[
+                  'white--text',
+                ]"
+              >
+                <small>{{ $t('payment.price_info3') }}</small>
+              </p>
             </div>
             <div
               :class="[
@@ -151,7 +158,6 @@
               <strong>{{ $t('payment.price_info1') }}</strong>
               {{ $t('payment.price_info2') }}
               <br />
-              <small>{{ $t('payment.price_info3') }}</small>
             </div>
             <!-- Form -->
             <div class="pay__flex">
