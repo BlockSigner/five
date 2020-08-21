@@ -25,5 +25,8 @@
     "@nuxt/typescript-build": "^0.6.5",
     "@nuxtjs/vuetify": "^1.11.0",
     "prettier": "^2.0.5"
+  },
+  "resolutions": {
+    "nuxt/**/serialize-javascript": "^4.0.0"
   }
 }
