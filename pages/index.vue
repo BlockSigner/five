@@ -526,7 +526,7 @@ export default {
           base: {
             color: '#293D66',
             fontSize: '20px',
-            fontFamily: 'Averta',
+            fontFamily: 'Averta, sans-serif',
             fontSmoothing: 'antialiased',
             '::placeholder': {
               color: '#65728E',
@@ -710,7 +710,7 @@ export default {
 .skribble-logo
   display: flex
   align-items: center
-  font: bold 1.5rem/1 $averta
+  font: bold 1.5rem/1 $averta, sans-serif
   color: $c-skribbleu
 
   img
@@ -836,7 +836,7 @@ export default {
       margin-right: -20px
 
   &__countries.v-input
-    font: 1rem/1 $averta
+    font: 1rem/1 $averta, sans-serif
     color: $c-skribbleu
 
   &__form
@@ -860,7 +860,7 @@ export default {
 
     &-header
       padding: 16px 0 16px 0
-      font: bold 1rem/1.4 $averta
+      font: bold 1rem/1.4 $averta, sans-serif
       color: $c-skribbleu
       +media(xs-only)
         font-size: .9rem
@@ -875,7 +875,7 @@ export default {
   font-size: .8rem
 
   .skribble-logo
-    font: bold 1.5rem/1 $averta
+    font: bold 1.5rem/1 $averta, sans-serif
     color: $c-skribbleu
 
   a
