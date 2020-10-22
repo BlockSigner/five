@@ -29,6 +29,13 @@
   status = 200
   signed = "PROXY_REQUEST_KEY"
 
+[[headers]]
+  # path to font
+  for = "/_nuxt/fonts/48cfe38.woff2"
+
+  [headers.values]
+    Access-Control-Allow-Origin = "https://js.stripe.com"
+    
 # Redirect to appropriate region and language based on ip location and browser language
 # The redirects engine will process the first matching rule it finds, reading from top to bottom.
 # https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file
