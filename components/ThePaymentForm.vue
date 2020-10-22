@@ -259,17 +259,18 @@ export default Vue.extend({
               style: 'normal',
               weight: 400,
               display: 'swap',
+              color: 'rgba(0, 0, 0, 0.6)',
             },
           ],
         },
         style: {
           base: {
-            color: '#293D66',
+            color: 'rgba(0, 0, 0, 0.6)',
             fontSize: '20px',
             fontFamily: 'Averta',
             fontSmoothing: 'antialiased',
             '::placeholder': {
-              color: '#65728E',
+              color: 'rgba(0, 0, 0, 0.6)',
             },
           },
         },
